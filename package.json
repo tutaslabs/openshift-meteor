@@ -1,0 +1,22 @@
+{
+  "name": "OpenShift-Nodejs-Cartridge",
+  "version": "1.1.0",
+  "description": "Node.js Cartridge for OpenShift",
+  "author": {
+    "name": "OpenShift",
+    "email": "ryanj@redhat.com",
+    "url":  "https://www.openshift.com"
+  },
+  "homepage": "https://www.openshift.com/",
+  "engines": {
+    "node": ">= 0.10.29",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "fibers": "~1.0.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "meteorshim.js"
+}

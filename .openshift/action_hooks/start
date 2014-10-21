@@ -1,0 +1,13 @@
+#!/bin/bash
+# The logic to start up your application should be put in this
+# script. The application will work only if it binds to
+# $OPENSHIFT_DIY_IP:8080
+source "$OPENSHIFT_REPO_DIR/.openshift/lib/utils"
+_SHOW_SETUP_PATH_MESSAGES="true" setup_path_for_custom_node_version
+
+
+cd ${OPENSHIFT_REPO_DIR}
+
+
+nohup node meteorshim.js &
+
