@@ -39,6 +39,7 @@ if [ -f "${OPENSHIFT_REPO_DIR}"/package.json ]; then
         (cd "${OPENSHIFT_REPO_DIR}/programs/server";export TMPDIR="tmp"; npm install semver -d --cache ${OPENSHIFT_DATA_DIR})
         (cd "${OPENSHIFT_REPO_DIR}/programs/server";export TMPDIR="tmp"; npm install websocket-driver -d --cache ${OPENSHIFT_DATA_DIR})
         (cd "${OPENSHIFT_REPO_DIR}/programs/server";export TMPDIR="tmp"; npm install bson -d --cache ${OPENSHIFT_DATA_DIR})
+         (cd "${OPENSHIFT_REPO_DIR}/programs/server";export TMPDIR="tmp"; npm install bcrypt -d --cache ${OPENSHIFT_DATA_DIR})
 
 fi
 
