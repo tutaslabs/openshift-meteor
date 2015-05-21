@@ -2,4 +2,4 @@
 #  The last "non-blank" version line is the one picked up by the code in
 #  .openshift/lib/utils
 
-0.10.36
+0.12.1
